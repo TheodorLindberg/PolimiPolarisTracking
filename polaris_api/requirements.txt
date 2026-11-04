@@ -1,0 +1,6 @@
+ndicapi==3.7.6
+numpy==2.0.2
+pyserial==3.5
+scikit-surgerycore==0.8.3
+scikit-surgerynditracker==1.0.6
+six==1.17.0

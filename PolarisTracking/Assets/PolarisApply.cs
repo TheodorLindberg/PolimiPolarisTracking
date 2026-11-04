@@ -34,8 +34,8 @@ public class PolarisApply : MonoBehaviour
             PolarisReceiver.ToolInfo toolInfo = receiver.GetToolInfo(toolToApply);
 
             GetComponent<Renderer>().enabled = toolInfo.visible;
-            transform.position = toolInfo.matrix.GetColumn(3) * 0.01f; 
-            transform.rotation = Quaternion.LookRotation(toolInfo.matrix.GetColumn(2), toolInfo.matrix.GetColumn(1));    
+            transform.localPosition = toolInfo.matrix.GetColumn(3) * 0.01f; 
+            transform.localRotation = Quaternion.LookRotation(toolInfo.matrix.GetColumn(2), toolInfo.matrix.GetColumn(1));    
         }
     }
 }

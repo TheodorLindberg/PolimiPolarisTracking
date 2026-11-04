@@ -11,3 +11,7 @@ pip install scikit-surgerynditracker
 
 Then run either demo.py for sending demo data,
 or main.py for if connected to the polaris
+
+
+Tested on MAC, it will automatically find the polaris so no COM port definition is required,
+
